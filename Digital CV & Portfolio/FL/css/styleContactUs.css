@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+
+* {
+    
+	margin: 0;
+
+	}
+
+
+
+html, body{
+
+    background-color: #77715a;
+
+    height: 100%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p {
+
+    margin-bottom: 20px;
+
+	}
+
+
+
+nav {
+
+    transform: translateY(-50%);
+
+    position: relative;
+
+    width: 100%;
+
+    z-index: 99;
+	
+}
+
+
+
+ul {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    list-style: none;
+
+	}
+
+
+
+ul li {
+
+    float: left;
+
+    width: 250px;
+
+    height: 60px;
+
+    opacity: .99999999;
+
+    background-color: transparent;
+
+    line-height: 60px;
+
+    text-align: center;
+
+    font-family: 'Germania One', cursive;
+
+    font-size: 130%;
+
+
+	}
+
+
+
+ul li a {
+
+	text-decoration: none;
+
+	color: black;
+
+	display: block;
+
+	}
+
+
+
+ul li a:hover {
+
+	background-color: #aba78e;
+	
+
+}
+
+
+
+ul li ul li {
+
+	display: none;
+
+    font-size: 100%;
+
+	}
+
+
+ul li:hover ul li {
+
+	display: block;
+
+	
+}
+
+
+ul li ul li a {
+
+    color: black;
+
+	}
+
+
+ul li ul li a:hover {
+
+    background-color: #aba78e;
+
+	}
+
+
+
+#logo {
+
+    float: left;
+
+    width: 10%;
+
+	}
+
+
+
+.sect {
+
+    height: 100%;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+	}
+
+
+
+.subSect {
+
+	color: black;
+
+    	height: 20%;
+
+    	background-color: #aba78e;
+
+	}
+
+
+
+.sectOne {
+
+    background-image: url("../images/tomato.jpeg");
+
+	}
+
+
+
+.sectTwo {
+
+    height: 47%;
+
+    background-image: url("../images/tomato2.jpg");
+
+	}
+
+
+
+p {
+    
+	color: white;
+
+    	font-family: "Raleway";
+
+    	font-weight: bold;
+
+	text-align:center;
+
+    	font-size:300%;
+
+    	position: relative;
+
+    	top: 50%;
+
+    	transform: translateY(-50%);
+  
+    	width: 100%;
+
+	}
+
+
+
+a {
+
+    color: white;
+
+    text-decoration: none;
+
+	}
+
+
+
+
+
+#logoFoot {
+
+        display: block;
+
+        margin: auto;
+
+        width: 15%;
+
+        padding: 40px;
+
+	}
+

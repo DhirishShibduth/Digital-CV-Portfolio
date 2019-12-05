@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
+h1 {
+    margin:0px;
+    color: #77715a;
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    font-family: "Raleway";
+}
+
+.RecipePhoto {
+    width: 100%;
+}
+
+
+ul li {
+        font-family: Arial;
+        font-weight: bold;
+        list-style: none;
+        margin: 1%;
+}
+
+
+
+h2{
+    color: white;
+    font-family: Germania One;
+    padding-left: 0%;
+    font-size: 200%;
+}
+
+.head {
+    margin: 0%;
+    background-color: #77715a;
+}
+
+#logo {
+        background-color: #77715a;
+        padding-bottom: 0px; 
+        display: block;
+        margin: auto;
+        width: 10%;
+        padding top: 10px;
+}
+
+.contents {
+    text-align: center;
+}
